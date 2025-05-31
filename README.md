@@ -1,0 +1,3 @@
+# Bastardkb Charybdis ZMK Module
+
+Readme in progress...
