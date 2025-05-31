@@ -3,17 +3,16 @@
 #include <dt-bindings/zmk/input_transform.h>
 
 &default_transform {
-	col-offset = <5>;
+	col-offset = <6>;
 };
 
-&charybdis_6col_transform {
-	col-offset = <6>;
+&five_column_transform {
+	col-offset = <5>;
 };
 
 &kscan0 {
 	compatible = "zmk,kscan-gpio-matrix";
-	wakeup-source;
-
+	
 	col-gpios
 		= <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
